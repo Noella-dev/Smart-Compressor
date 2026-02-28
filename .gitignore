@@ -1,0 +1,12 @@
+*.txt
+*.csv
+
+enwik8       
+test_donnees_105Mo.txt
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+# Fichiers compressés et restaurés
+*.bin
+RESTAURE_*
