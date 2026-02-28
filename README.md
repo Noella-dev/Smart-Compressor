@@ -22,9 +22,12 @@ L'innovation majeure de cette implémentation réside dans l'utilisation d'une *
 
 ### Lancement
 1.Lancez le programme principal : 
+Placez les fichiers à compresser (ex: MedQuAD.csv) à la racine du projet, au même niveau que le fichier main.py.
+
    ```bash
   python main.py
 ```
+
 ## Résultats Expérimentaux
 Le système a été validé sur différents types de jeux de données massifs (> 100 Mo) :
 

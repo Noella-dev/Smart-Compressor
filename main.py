@@ -17,14 +17,14 @@ def lancer_programme():
     #selection de la source de donnees
     print("--- SOURCE DES DONNEES ---")
     print("1) Générer un fichier étalon (105 Mo)")
-    print("2) Sélectionner un fichier existant (CSV, TXT, XML...)")
+    print("2) Sélectionner un fichier existant (CSV, TXT, XML...)qui place à la racine du projet, au même niveau que le fichier main.py.")
     choix = input("\nVotre choix (1 ou 2) : ")
 
     if choix == "1":
         nom_fichier = "test_donnees.txt"
         generer_donnees_test(nom_fichier, 105)
     else:
-        nom_fichier = input("Entrez le nom exact du fichier (ex: MedQuAD.csv) : ")
+        nom_fichier = input("Entrez le nom exact du fichier (ex: MedQuAD.csv)au même niveau que le fichier main.py: ")
 
     # Validation des contraintes de l'examen (> 100 Mo)
     if not os.path.exists(nom_fichier):
